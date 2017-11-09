@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Sword">
+      <UniqueIdentifier>{fdfabdf9-e4e2-43fa-af78-b12f4e6d98d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Axe">
+      <UniqueIdentifier>{0b2e5783-a8c0-4365-99c9-46ad2419140f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Bow">
+      <UniqueIdentifier>{bd5a9dce-4a3b-48a0-9502-0fb0ede701d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Axe">
+      <UniqueIdentifier>{4787af46-0a54-44b8-aa6e-16029f6c0d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sword">
+      <UniqueIdentifier>{83879a3c-5884-400e-84b0-2fa717de0ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Bow">
+      <UniqueIdentifier>{3e18c503-c124-400c-bc38-089bb8650c5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Claymore.h">
+      <Filter>헤더 파일\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Katana.h">
+      <Filter>헤더 파일\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="LongSword.h">
+      <Filter>헤더 파일\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>헤더 파일\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Axe.h">
+      <Filter>헤더 파일\Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>헤더 파일\Bow</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleAxe.h">
+      <Filter>헤더 파일\Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="HandAxe.h">
+      <Filter>헤더 파일\Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="PoleAxe.h">
+      <Filter>헤더 파일\Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortBow.h">
+      <Filter>헤더 파일\Bow</Filter>
+    </ClInclude>
+    <ClInclude Include="LongBow.h">
+      <Filter>헤더 파일\Bow</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossbow.h">
+      <Filter>헤더 파일\Bow</Filter>
+    </ClInclude>
+    <ClInclude Include="Infomation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClayMore.cpp">
+      <Filter>소스 파일\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Katana.cpp">
+      <Filter>소스 파일\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="LongSword.cpp">
+      <Filter>소스 파일\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>소스 파일\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Axe.cpp">
+      <Filter>소스 파일\Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleAxe.cpp">
+      <Filter>소스 파일\Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="PoleAxe.cpp">
+      <Filter>소스 파일\Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="HandAxe.cpp">
+      <Filter>소스 파일\Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>소스 파일\Bow</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortBow.cpp">
+      <Filter>소스 파일\Bow</Filter>
+    </ClCompile>
+    <ClCompile Include="LongBow.cpp">
+      <Filter>소스 파일\Bow</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossBow.cpp">
+      <Filter>소스 파일\Bow</Filter>
+    </ClCompile>
+    <ClCompile Include="Infomation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
