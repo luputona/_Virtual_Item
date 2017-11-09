@@ -412,4 +412,8 @@ void main()
 			continue;
 		}
 	}
+
+	delete []pName;
+	delete []pUsed;
+
 }
